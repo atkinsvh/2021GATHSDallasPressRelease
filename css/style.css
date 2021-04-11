@@ -1,0 +1,179 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+#main-header{
+	background-image:url('../images/headerbackground.jpg');
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-size: 100% 100%;
+  	background-attachment:relative;
+  	background-image:bottom center;
+	border:solid;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align:center;
+}
+
+/*
+#borderimg{
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(icon square-01.png);  
+  border-image-slice: 30;
+} */
+
+#sponsorbar{
+	background-color:#36c642;
+	color:#fff;
+	text-align:center; /* same as above*/
+  }
+
+ #sponsorbar li h1{
+	color:#fff;
+	text-align:left;
+	display: inline;
+ }
+
+#sponsorbar {
+    border-top: 2px solid #555;
+    border-bottom: 5px solid white; 
+} 
+
+#sponsorbar:after {
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+
+#sponsorbar ul{
+	padding:0;
+	list-style:none;
+
+
+}
+
+#sponsorbar li{
+	display:inline;
+
+	
+}
+
+#sponsorbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size:19px;
+	padding-right:22px;
+	
+}
+
+#navbar{
+	background-color:#36c642;
+	color:#fff;
+	text-align:center;
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+
+}
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+
+
+}
+
+
+#showcase{
+	background-image:url('../images/showcase.jpeg');
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#36c642;
+	font-size:50px;
+	line-height:1.6em;
+	padding-top:30px;
+	font-family: Cinzel;
+
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing:border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background:#333;
+	color:#fff;
+	padding:15px;
+	box-sizing:border-box;
+	align-items:right;
+
+}
+}
+
+#main-footer {
+	
+	float: center;
+	text-align:center;
+	left:50px; 
+	
+
+/*
+	max-width: 980px;
+    text-align: right;
+    margin: auto; 
+    width:30%;
+	background:#333;
+	color:#fff;
+	padding:15%; */
+	
+	
+	
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
